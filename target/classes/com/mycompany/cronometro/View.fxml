@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cronometro.ViewController">
+   <children>
+      <Label id="horas" fx:id="horas" alignment="BOTTOM_LEFT" layoutX="87.0" layoutY="35.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="00:">
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Label>
+            <Label id="minutos" fx:id="minutos" alignment="BOTTOM_CENTER" layoutX="212.0" layoutY="35.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="00:" >
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Label>
+            <Label id="segundos" fx:id="segundos" alignment="BOTTOM_RIGHT" layoutX="337.0" layoutY="35.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="00">
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Label>
+      <Button fx:id="iniciar" layoutX="74.0" layoutY="270.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" text="Iniciar" />
+      <Button fx:id="detener" layoutX="262.0" layoutY="269.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="75.0" text="Detener" />
+      <Button fx:id="reiniciar" layoutX="449.0" layoutY="269.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="75.0" text="Reiniciar" />
+   </children>
+</AnchorPane>
