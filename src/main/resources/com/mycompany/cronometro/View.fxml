@@ -12,7 +12,7 @@
                   <Font size="96.0" />
                </font>
             </Label>
-            <Label id="minutos" fx:id="minutos" alignment="BOTTOM_CENTER" layoutX="212.0" layoutY="35.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="00:" >
+            <Label id="minutos" fx:id="minutos" alignment="BOTTOM_CENTER" layoutX="212.0" layoutY="35.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="00:">
                <font>
                   <Font size="96.0" />
                </font>
@@ -25,5 +25,7 @@
       <Button fx:id="iniciar" layoutX="74.0" layoutY="270.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" text="Iniciar" />
       <Button fx:id="detener" layoutX="262.0" layoutY="269.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="75.0" text="Detener" />
       <Button fx:id="reiniciar" layoutX="449.0" layoutY="269.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="75.0" text="Reiniciar" />
+      <Label fx:id="marcador" layoutX="205.0" layoutY="347.0" prefHeight="38.0" prefWidth="394.0" text="No se ha marcado ningún tiempo" />
+      <Button fx:id="marcar" layoutX="86.0" layoutY="354.0" mnemonicParsing="false" text="MARCAR" />
    </children>
 </AnchorPane>

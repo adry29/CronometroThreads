@@ -39,6 +39,12 @@ public class ViewController{
     @FXML
     private Button reiniciar;
     
+    @FXML
+    Label marcador;
+    
+    @FXML
+    private Button marcar;
+    
     boolean result=false;
     
     
@@ -88,6 +94,10 @@ public class ViewController{
             minutos.setText("00:");
             segundos.setText("00");
             initialize();
+        });
+        
+        marcar.setOnAction(event -> {
+            marcador.setText("Último marcador: "+horas.getText()+minutos.getText()+segundos.getText());
         });
         
     }
